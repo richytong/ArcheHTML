@@ -129,10 +129,10 @@ To contribute, you can just open a pull request with a description of the change
 
 Arche HTML is distributed under the [CFOSS License](https://cloutsworld.com/en-us/legal/license/cfoss).
 
-# Support
+## Support
 
   * minimum Node.js version: 16
 
-## Supported Platforms
+### Supported Platforms
 
   * Linux
