@@ -1,4 +1,4 @@
-# Arche HTML
+# ArcheHTML
 
 HTML renderer for [vanilla microfrontends](https://arche.gallery/).
 
