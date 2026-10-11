@@ -16,9 +16,14 @@ with [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm):
 npm i arche-html
 ```
 
-require Arche HTML in [CommonJS](https://nodejs.org/docs/latest/api/modules.html#modules-commonjs-modules):
+require ArcheHTML with Node.js [CommonJS modules](https://nodejs.org/docs/latest/api/modules.html#modules-commonjs-modules):
 ```javascript
 const ArcheHTML = require("arche-html")
+```
+
+import ArcheHTML with Node.js [ECMAScript modules](https://nodejs.org/api/esm.html):
+```javascript
+import ArcheHTML from "arche-html"
 ```
 
 ## Usage
@@ -48,7 +53,7 @@ new ArcheHTML(rootImport string, {
 }) -> ArcheHTML
 ```
 
-Arche HTML class. Creates an object that renders HTML from the root of an Arche client application. An Arche client application is a software application for the client that uses the [Arche](https://arche.gallery/) library.
+ArcheHTML class. Creates an object that renders HTML from the root of an Arche client application. An Arche client application is a software application for the client that uses the [Arche](https://arche.gallery/) library.
 
 Supported libraries with Arche:
   * [React](https://react.dev/)
@@ -127,7 +132,7 @@ To contribute, you can just open a pull request with a description of the change
 
 ## License
 
-Arche HTML is distributed under the [CFOSS License](https://cloutsworld.com/en-us/legal/license/cfoss).
+ArcheHTML is distributed under the [CFOSS License](https://cloutsworld.com/en-us/legal/license/cfoss).
 
 ## Support
 
