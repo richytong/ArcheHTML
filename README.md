@@ -91,13 +91,30 @@ Return:
   * `html` - `Promise<string>` - The rendered HTML of the Arche client application.
 
 ## Polyfills
-To provide global variables for the Arche client application or other script imports, define [polyfills](https://en.wikipedia.org/wiki/Polyfill_(programming)) in a script import of the `scriptImports` option of the ArcheHTML constructor. Because the script imports are imported in order, the polyfills script should be the first or one of the first script imports. Here is an example of a polyfills script:
+To provide global variables for the Arche client application or other script imports, define [polyfills](https://en.wikipedia.org/wiki/Polyfill_(programming)) in a script import of `scriptImports`. Because the script imports are imported in order, the polyfills script should be the first or one of the first script imports. Here is an example of a polyfills script:
 
 ```javascript
+// polyfills.mjs
+
 import rubico from "rubico/dist/rubico.mjs"
 
 window.rubico = rubico
 window.BezierEasing = () => {}
+```
+
+Here is an example defining the polyfills script in `scriptImports`:
+
+```javascript
+// server.js
+
+const ArcheHTML = require("arche-html")
+
+const archeHTML = new ArcheHTML("/path/to/react/Root.js", {
+  scriptImports: [
+    "/path/to/polyfills.mjs",
+    "/path/to/global.js",
+  ],
+})
 ```
 
 ## License
