@@ -91,7 +91,7 @@ Return:
   * `html` - `Promise<string>` - The rendered HTML of the Arche client application.
 
 ## Polyfills
-ArcheHTML provides [polyfills](https://en.wikipedia.org/wiki/Polyfill_(programming)) of global variables as Arche, React, location, localStorage, matchMedia, and document.
+ArcheHTML provides [polyfills](https://en.wikipedia.org/wiki/Polyfill_(programming)) of client global variables for the server as Arche, React, location, localStorage, matchMedia, and document.
 
 To define custom polyfills of global variables for your Arche client application or other script imports, define [polyfills](https://en.wikipedia.org/wiki/Polyfill_(programming)) in a script import of `scriptImports`. Because the script imports are imported in order, the polyfills script should be the first or one of the first script imports. Here is an example of a polyfills script:
 
