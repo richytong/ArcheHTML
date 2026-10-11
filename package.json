@@ -1,0 +1,38 @@
+{
+  "name": "arche-html",
+  "version": "0.0.0",
+  "description": "Arche HTML",
+  "author": "Richard Tong",
+  "license": "CFOSS",
+  "main": "ArcheHTML.js",
+  "repository": {
+    "type": "git",
+    "url": "github:richytong/arche-html"
+  },
+  "homepage": "github:richytong/arche-html",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "ArcheHTML.js",
+    "getRootHtml.mjs",
+    "logRootHtml.mjs",
+    "package.json"
+  ],
+  "keywords": [
+    "ssr",
+    "server-side-rendering",
+    "html",
+    "Arche",
+    "vanilla",
+    "microfrontends"
+  ],
+  "type": "commonjs",
+  "devDependencies": {
+    "nyc": "^18.0.0"
+  },
+  "dependencies": {
+    "arche": "^1.1.2",
+    "rubico": "^2.18.4"
+  }
+}
