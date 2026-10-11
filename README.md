@@ -56,9 +56,19 @@ Supported libraries with Arche:
   * [document](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 
 Arguments:
-  * `rootImport` - `string` - The file path to the root file of the Arche clientn application.
+  * `rootImport` - `string` - The file path to the root file of the Arche client application.
   * `options`
-    * `scriptImports` - `Array<string>` - An array of urls of scripts to import within a render of an Arche client application using the `import` statement. Defaults to `[]`.
+    * `scriptImports` - `Array<string>` - An array of urls of scripts to import before the root import within a render of an Arche client application. Defaults to `[]`.
+
+```javascript
+const ArcheHTML = require("arche-html")
+
+const archeHTML = new ArcheHTML("/path/to/react/Root.js", {
+  scriptImports: [
+    "/path/to/global.js",
+  ],
+})
+```
 
 #### render
 
