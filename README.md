@@ -6,7 +6,7 @@ Source code: [GitHub](https://github.com/richytong/arche-html) |
 License: [CFOSS](https://cloutsworld.com/en-us/legal/license/cfoss)
 
 ![Node.js CI](https://github.com/richytong/arche-html/workflows/Node.js%20CI/badge.svg)
-[![codecov](https://codecov.io/gh/richytong/arche-html/graph/badge.svg?token=G7V5X2JMLI)](https://codecov.io/gh/richytong/arche-html)
+[![codecov](https://codecov.io/gh/richytong/ArcheHTML/graph/badge.svg?token=J5EPE5NX4O)](https://codecov.io/gh/richytong/ArcheHTML)
 [![npm version](https://img.shields.io/npm/v/arche-html.svg?style=flat)](https://www.npmjs.com/package/arche-html)
 
 ## Installation
