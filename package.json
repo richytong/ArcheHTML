@@ -11,10 +11,11 @@
   },
   "homepage": "github:richytong/arche-html",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js && node test.mjs"
   },
   "files": [
     "ArcheHTML.js",
+    "ArcheHTML.mjs",
     "getRootHtml.mjs",
     "logRootHtml.mjs",
     "package.json"
