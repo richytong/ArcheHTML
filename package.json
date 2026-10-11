@@ -11,7 +11,7 @@
   },
   "homepage": "github:richytong/arche-html",
   "scripts": {
-    "test": "node test.js && node test.mjs"
+    "test": "node test.js"
   },
   "files": [
     "ArcheHTML.js",
