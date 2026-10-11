@@ -24,4 +24,4 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm i && npx nyc --reporter=lcovonly npm test && npx codecov --token=86bcb6a5-58ea-4b34-a255-debfc27136f2 --file=coverage/lcov.info
+    - run: npm i && npx nyc --reporter=lcovonly npm test && npx codecov --token=13805f40-a0e7-4f42-8238-9e133a6c1762 --file=coverage/lcov.info
